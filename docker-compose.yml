@@ -3,7 +3,7 @@ version: '3'
 services:
 
   payload:
-    image: node:18-alpine
+    image: node:16.13.2
     ports:
       - "3000:3000"
     volumes:
